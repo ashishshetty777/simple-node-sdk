@@ -1,0 +1,50 @@
+{
+  "name": "simple-node-sdk",
+  "version": "0.0.1",
+  "description": "Simple Node SDK",
+  "main": "lib/simple-node-sdk.js",
+  "scripts": {
+    "build": "webpack --env dev && webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "lint": "eslint src --quiet ",
+    "lint:fix": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashishshetty777/simple-node-sdk.git"
+  },
+  "keywords": [
+    "webpack",
+    "es6",
+    "starter",
+    "library",
+    "universal",
+    "umd",
+    "commonjs"
+  ],
+  "author": "Ashish Shetty",
+  "license": "MIT",
+  "homepage": "https://github.com/ashishshetty777/simple-node-sdk",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.8.3",
+    "acorn": "^7.1.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "yargs": "^10.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "base-path-converter": "^1.0.2",
+    "form-data": "^2.3.3"
+  }
+}
