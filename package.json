@@ -1,6 +1,6 @@
 {
   "name": "simple-node-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple Node SDK",
   "main": "lib/simple-node-sdk.js",
   "scripts": {
